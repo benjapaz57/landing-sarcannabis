@@ -8,7 +8,7 @@ height: 40px;
 margin: 10px;
 }
 .card{
-    min-height: 260px; 
+    min-height: 150px; 
 }
 header div img{
     height: 200px;
@@ -23,5 +23,25 @@ header div img{
 @media (max-width: 580px){
     header img{
         height: 100px;
+    }
+}
+@media (max-width: 1200px){
+    .card{
+        min-height: 200px
+    }
+}
+@media (max-width: 1000px){
+    .card{
+        min-height: 250px
+    }
+}
+@media (max-width: 770px){
+    .card{
+        min-height: 280px
+    }
+}
+@media (max-width: 575px){
+    .card{
+        min-height: 150px
     }
 }
