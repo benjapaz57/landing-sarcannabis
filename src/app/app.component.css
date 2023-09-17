@@ -11,11 +11,17 @@ margin: 10px;
     min-height: 260px; 
 }
 header div img{
-    height: 300px;
+    height: 200px;
 }
 .background-verde{
     background-color: #4c8865;
 }
 .letras-naranja{
     color: #faaa55;
+}
+
+@media (max-width: 580px){
+    header img{
+        height: 100px;
+    }
 }
