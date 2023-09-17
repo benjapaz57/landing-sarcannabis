@@ -7,3 +7,17 @@ nav img{
 height: 40px;
 margin: 10px;
 }
+.card{
+    min-height: 240px; 
+}
+header div img{
+    height: 300px;
+}
+.background-verde{
+    background-color: #4c8865;
+}
+.letras-naranja{
+    color: #faaa55;
+}
+
+/* color verde: #5ca57a  naranja: #faaa55*/
