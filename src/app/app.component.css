@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav img{
+nav img{ 
 height: 40px;
 margin: 15px;
 }
@@ -19,6 +19,11 @@ header div img{
 .letras-naranja{
     color: #faaa55;
 }
+
+#img-header:hover{
+    transform: scale(1.1)
+}
+
 
 @media (max-width: 580px){
     header img{
