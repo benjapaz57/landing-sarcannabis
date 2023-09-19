@@ -3,9 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
 nav img{ 
 height: 40px;
 margin: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    text-shadow: rgb(182, 182, 182) 1px 0 5px;
 }
 .card{
     min-height: 150px; 
@@ -16,14 +24,25 @@ header div img{
 .background-verde{
     background-color: #4c8865;
 }
-.letras-naranja{
-    color: #faaa55;
-}
 
 #img-header:hover{
     transform: scale(1.1)
 }
-
+.botones {
+    padding: 1rem 1rem;
+    right: 0;
+    position: fixed;
+    bottom: 15%;
+    background-color: #5ca57a;  
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#cards-info h5{
+    text-shadow: black 1px 0 10px;
+}
+#carousel-info h5, #carousel-info p{
+    text-shadow: black 1px 0 10px;
+}
 
 @media (max-width: 580px){
     header img{
