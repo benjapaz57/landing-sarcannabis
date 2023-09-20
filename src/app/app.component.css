@@ -15,18 +15,24 @@ nav a{
     color: rgb(29, 29, 29);
     text-shadow: rgb(182, 182, 182) 1px 0 5px;
 }
-.card{
-    min-height: 180px; 
-}
 header div img{
     height: 200px;
+}
+#img-header:hover{
+    transform: scale(1.1)
+}
+.card{
+    min-height: 180px; 
 }
 .background-verde{
     background-color: #4c8865;
 }
 
-#img-header:hover{
-    transform: scale(1.1)
+#cards-info h5{
+    text-shadow: black 1px 0 10px;
+}
+#carousel-info p{
+    text-shadow: black 1px 0 10px;
 }
 .botones {
     padding: 1rem 1rem;
@@ -37,14 +43,8 @@ header div img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-#cards-info h5{
-    text-shadow: black 1px 0 10px;
-}
-#carousel-info h5, #carousel-info p, #carousel-info i{
-    text-shadow: black 1px 0 10px;
-}
 
-
+/* MEDIA QUERYS */
 
 @media (max-width: 580px){
     header img{
