@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     // Configura la velocidad de desplazamiento y dirección
     $('#colaboradores').carousel({
-        interval: 300, // Cambia cada 3 segundos
+        interval: 3000, // Cambia cada 3 segundos
         pause: 'hover' // Pausa en hover del mouse
     });
 });
