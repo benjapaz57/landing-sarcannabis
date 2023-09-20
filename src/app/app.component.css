@@ -43,6 +43,12 @@ header div img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+#colaboradores-div h2{
+    margin: 15px;
+    padding-top: 10px;
+    text-shadow: black 1px 1px 0px;
+    text-decoration: underline;
+}
 
 /* MEDIA QUERYS */
 
