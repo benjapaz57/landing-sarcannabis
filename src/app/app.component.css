@@ -43,11 +43,22 @@ header div img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-#colaboradores-div h2{
-    margin: 15px;
-    padding-top: 10px;
-    text-shadow: black 1px 1px 0px;
-    text-decoration: underline;
+
+#colabs-try{
+    padding: 20px 0;
+    margin: 10px auto;
+}
+#colabs-try p{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+}
+.cartas{
+    box-shadow: 10px 10px 23px -2px rgba(76,136,101,1);
+}
+#cartas-colabs img{
+    padding: 10px;
 }
 
 /* MEDIA QUERYS */
@@ -70,6 +81,15 @@ header div img{
 @media (max-width: 770px){
     .card{
         min-height: 300px
+    }
+    #botonera{
+        padding: 1rem 1rem;
+        right: 0;
+        position: fixed;
+        bottom: 45%;
+        background-color: #5ca57a;  
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 }
 @media (max-width: 575px){
