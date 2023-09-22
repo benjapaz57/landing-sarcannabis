@@ -60,6 +60,10 @@ header div img{
 #cartas-colabs img{
     padding: 10px;
 }
+#cartas-colabs img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 /* MEDIA QUERYS */
 
