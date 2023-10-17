@@ -43,6 +43,23 @@ header div img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+#equipo{
+    background-color: #faaa55;
+    height: auto;
+    width: 84%;
+    margin: 50px auto;
+    border: 5px solid #4c8865;
+    border-radius: 5px;
+}
+.equipo{
+    height: 350px;
+    width: 250px;
+    background-color: #4c8865;
+}
+.equipo img{
+    height: 230px;
+    width: 200px;
+}
 
 #colabs-try{
     padding: 20px 0;
